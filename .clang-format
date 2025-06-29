@@ -1,0 +1,70 @@
+BasedOnStyle: GNU
+Standard: c++17
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+AccessModifierOffset: -4
+AlignAfterOpenBracket: DontAlign # Не выравнивать по открывающей скобке
+AlignConsecutiveAssignments: None
+AlignOperands: DontAlign # Не выравнивать операторы
+AllowAllArgumentsOnNextLine: true #  Разрешает размещать все аргументы на одной строке
+AllowAllConstructorInitializersOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakTemplateDeclarations: No
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: true # Переносить { после объявления class.
+  AfterControlStatement: Never
+  AfterEnum: false # Переносить { после объявления enum.
+  AfterFunction: true
+  AfterNamespace: true
+  AfterUnion: true
+  BeforeCatch: false
+  BeforeElse: false
+  IndentBraces: false
+  SplitEmptyFunction: true # Пустое тело функции помещено в две строки
+  SplitEmptyRecord: true
+BreakBeforeBinaryOperators: None
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeColon
+BreakInheritanceList: BeforeColon
+ColumnLimit: 120
+CompactNamespaces: false
+ContinuationIndentWidth: 4 # Отступ для продолжения строки
+IndentCaseLabels: true
+IndentPPDirectives: None
+IndentWidth: 4
+KeepEmptyLinesAtTheStartOfBlocks: true
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: All
+ObjCSpaceAfterProperty: false
+ObjCSpaceBeforeProtocolList: true
+PointerAlignment: Left
+ReflowComments: true
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: true
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCpp11BracedList: true # Убирает пробел перед {
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: Never # Пробел перед () - пробел после if for while ...
+SpaceBeforeRangeBasedForLoopColon: true # Пробел перед : для тернарного оператора
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 1
+SpacesInAngles: Never
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: true
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+TabWidth: 4 # Ширина табуляции в пробелах (если UseTab включен).
+UseTab: Never # Запрещает использование табуляции (только пробелы).
+BreakConstructorInitializersBeforeComma: true # Список инициализации членов класса в колонку.
+AlignEscapedNewlines: Left # Выравнивает \ по левому краю
+BinPackParameters: false # Не "упаковывать" параметры (каждый на новой строке)
